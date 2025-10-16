@@ -6,31 +6,116 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <Section class=" navbar ">
+<body>  
+    <section class=" navbar ">
         <div class="navbar-contant">
             <img id="imglogo" src="./Images/Logo.png" alt="Logo" >
         </div>
-        <div class=" Search ">
-            <input type="text" placeholder="Search">   
+        <div class="navbar-right">
+
+            <div class=" Search ">
+                <input type="text" placeholder="Search">   
+            </div>
+
+            <div class="frame">
+                <label for="language"></label>
+                <select name="language" id="language">
+                    <option value="English" selected>English</option>
+                    <option value="Arabe">Arabe</option>
+                    <option value="Français">Français</option>
+                </select>
+            </div>
+
+            <div class="navbar-notification">
+                <img id="imglogo" src="./Images/Header Notification button.png" alt="Logo" >
+            </div>
+            <div class="navbar-notification">
+                <img id="imglogo" src="./Images/Profile Icon.png" alt="Logo" >
+            </div>
+
         </div>
-        <div class="frame">
-            <img src="./Images/Frame 107.png" alt="Frame">
-        </div>
+    </section>
+
+    <div class="navbar2">
+        <div class="Social-Network">
+            <li><img src="./Images/Social Network insta.png" alt=""></li>
+            <li><img src="./Images/Social Network twit.png" alt=""></li>
+            <li><img src="./Images/Social Network Be.png" alt=""></li>
         </div>
 
-    </Section>
-    <nav class="navication">
-        <ul>
+        <ul class="navication">
             <li><a href="./index.html">Accueil</a></li>
             <li><a href="./apropos.html">À propos</a></li>
             <li><a href="./planetes.html">Planètes</a></li>
             <li><a href="./Missions.html">Missions Spatiales</a></li>
-            <li><a href="./Contact.html"><button type="button">Contactez-nous</button></a></li>
         </ul>
-    </nav>
+        <div class="navication-button">
+            <li><a href="./Contact.html"><button class="button" type="button">Contactez-nous</button></a></li>
+        </div>
+    </div>
+    <section>
+        <div class="slider">
+            <img src="Images/slider.png" alt="slider">
+            <div class="content">
+                <h1>Space Odyssey</h1>
+                <p>Explorez les merveilles de l'univers.<br>écouvrez les étoiles, les planètes et les galaxies comme jamais auparavant !</p>
+                <button class="explore-btn">Explore Space</button>
+            </div>
+        </div>
+    </section> 
 
-    
+    <section class="premier">
+        <div class="carts">
+            <div class="carte">
+                <img src="./Images/Rectangle 502.png" alt="Photo">
+                <div class="carte-contant">
+                    <h2>Découvrez l'Univers</h2>
+                    <p>Découvrez les merveilles du cosmos grâce à notre contenu sélectionné sur les découvertes astronomiques, les événements célestes et les faits fascinants sur l'espace. Commencez dès maintenant votre voyage au cœur des mystères de l'univers.</p>
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+            <div class="carte">
+                <img src="./Images/Rectangle 502.png" alt="Photo">
+                <div class="carte-contant">
+                    <h2>Découvrez l'Univers</h2>
+                    <p>Découvrez les merveilles du cosmos grâce à notre contenu sélectionné sur les découvertes astronomiques, les événements célestes et les faits fascinants sur l'espace. Commencez dès maintenant votre voyage au cœur des mystères de l'univers.</p>
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+            <div class="carte">
+                <img src="./Images/Rectangle 502.png" alt="Photo">
+                <div class="carte-contant">
+                    <h2>Découvrez l'Univers</h2>
+                    <p>Découvrez les merveilles du cosmos grâce à notre contenu sélectionné sur les découvertes astronomiques, les événements célestes et les faits fascinants sur l'espace. Commencez dès maintenant votre voyage au cœur des mystères de l'univers.</p>
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deuxieme">
+        <div class="deuxieme-container">
+            <div class="deuxieme-texte">
+            <p>
+                Plongez dans le monde fascinant de l'astronomie grâce à notre contenu sélectionné,
+                aux analyses d'experts et aux dernières actualités spatiales. Que vous soyez un curieux
+                en quête de découvertes ou un passionné expérimenté, explorez nos ressources pour approfondir
+                votre compréhension du cosmos et rester connecté à l'univers en constante expansion.
+            </p>
+            </div>
+            
+            <div class="temps-total">
+            <div class="temps-header">
+                <img src="./Images/Temps total.png" alt="Chrono">
+            </div>
+            <div class="temps-valeurs">
+                <span>352</span><small>D</small>
+                <span>5</span><small>H</small>
+                <span>49</span><small>M</small>
+                <span>20</span><small>S</small>
+            </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>

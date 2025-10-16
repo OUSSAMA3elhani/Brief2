@@ -1,0 +1,357 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar{
+    z-index: 1000;
+    background-image: url(./Images/Hedaer\ top\ \(1\).png);
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+.navbar-contant{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 0;
+    margin-right: 20px;
+    padding: 0;
+}
+.Search{
+    margin-top: 10px;
+}
+.Search input{
+    background-color: #efebeb;
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+.frame select{
+    margin-top: 5px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: none;
+}
+.frame option{
+    color: black;
+}
+
+.language{
+    margin-bottom: 10px ;
+}
+.navbar2{
+    z-index: 1000;
+    background-color: #FFFFFF;
+    border-bottom: solid rgba(9, 6, 6, 0.379) 2px;
+    position: fixed;
+    display: flex;
+    top: 77px;
+    right: 0;
+    left: 0;
+    justify-content: space-evenly ;
+}
+.Social-Network {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 0;
+    padding: 0;
+}
+.navication{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 10px;
+    padding: 0;
+}
+.navication a{
+    color: #00000084;
+    text-decoration: none;
+    font-weight: bold; 
+}
+.navication-button{
+    border-radius: 70px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    gap: 30px;
+    margin-top: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navication-button button:hover {
+    background-color:#fff ;
+    color: #000000;
+    border: #000 solid 2px;
+}
+
+.navication-button .button {
+    border-radius: 9px;
+    width: 150px;
+    height: 35px;
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.navication a:hover {
+  color: #000;
+  
+}
+.Space-Odyssey{
+    background-image: url(./Images/slider.png) ;
+}
+.slider{
+    margin-top: 120px ;
+    position: relative;
+    width: 100%;
+    height: 481px;
+}
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.content p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+.explore-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: black;
+  color: white;
+}
+.premier{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 40x 0px;
+}
+.carts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 200px;
+
+}
+.carte {
+    position: relative;
+    background: #1a1a1a;
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.carte img {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 18px #1e90ff44;
+}
+.carte-contant{
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 10px;
+    padding-right:10px ;
+}
+.carte-contant h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.carte-contant p {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+.carte-contant button{
+    margin-left: 70%;
+    height: 30px ;
+    border-radius: 9px;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.deuxieme {
+  margin: 100px auto;
+  padding: 50px 10%;
+}
+
+.deuxieme-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap; /* s’adapte sur mobile */
+}
+
+.deuxieme-texte {
+  flex: 1 1 60%;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: bold;
+  color: #222;
+}
+
+.temps-total {
+  flex: 1 1 30%;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.temps-header img {
+  width: 300px;
+  height: 55px;
+  padding-bottom: 5px;
+}
+
+.temps-header span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.temps-valeurs {
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.temps-valeurs small {
+  font-size: 14px;
+  opacity: 0.8;
+}
+#planetes{
+    border-radius: 20px;
+    padding: 30px 40px 30px;
+    background-color: #fff8f848;
+}
+
+.titre-planetes{
+    margin-top: 60px;
+    margin-left: 60px;
+    display: flex;
+    justify-items: center;
+}
+.Icon{
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 50px;
+}
+.titre-planetes div p{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.planete-section {
+  justify-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.planete-cadre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 900px;
+  height: 300px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+.planete-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.planete-titre {
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 6px 16px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.planete-img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.planete-texte li{
+    line-height: 40px;
+    font-size: 20px;
+
+}
