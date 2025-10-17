@@ -148,7 +148,7 @@ html, body {
 .explore-btn {
   background-color: white;
   color: black;
-  border: none;
+  border: solid black 1px;
   border-radius: 20px;
   padding: 10px 20px;
   font-weight: bold;
