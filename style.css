@@ -426,8 +426,10 @@ html, body {
 .Quatrieme-container {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: 60px;
+  justify-content: space-around;
+  gap: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* --- Texte à gauche --- */
@@ -573,6 +575,9 @@ textarea {
     gap: 14px;
     margin-top: 5px;
 }
+
+
+
 .Message-envoye{
     display: flex;
     flex-direction: column;
